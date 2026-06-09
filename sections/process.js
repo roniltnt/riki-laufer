@@ -20,8 +20,8 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
             <i class="fas fa-bullseye text-white text-xl"></i>
           </div>
         </div>
-        <h3 class="text-lg font-bold text-gray-800 mb-2">מיקוד במטרה</h3>
-        <p class="text-gray-500 text-sm leading-relaxed">אבחון מדויק של המצב הנוכחי ובניית מסלול ליעד.</p>
+        <h3 class="text-xl font-bold text-gray-800 mb-2">מיקוד במטרה</h3>
+        <p class="text-gray-500 text-base leading-relaxed">אבחון מדויק של המצב הנוכחי ובניית מסלול ליעד.</p>
       </div>
 
       <div class="text-right">
@@ -32,8 +32,8 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
             <i class="fas fa-toolbox text-white text-xl"></i>
           </div>
         </div>
-        <h3 class="text-lg font-bold text-gray-800 mb-2">כלים פרקטיים</h3>
-        <p class="text-gray-500 text-sm leading-relaxed">משימות ממוקדות ליישום מהיר ביומיום.</p>
+        <h3 class="text-xl font-bold text-gray-800 mb-2">כלים פרקטיים</h3>
+        <p class="text-gray-500 text-base leading-relaxed">משימות ממוקדות ליישום מהיר ביומיום.</p>
       </div>
 
       <div class="text-right">
@@ -44,8 +44,8 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
             <i class="fas fa-shield text-white text-xl"></i>
           </div>
         </div>
-        <h3 class="text-lg font-bold text-gray-800 mb-2">ליווי בגובה העיניים</h3>
-        <p class="text-gray-500 text-sm leading-relaxed">סביבה בטוחה, מכילה ודיסקרטית.</p>
+        <h3 class="text-xl font-bold text-gray-800 mb-2">ליווי בגובה העיניים</h3>
+        <p class="text-gray-500 text-base leading-relaxed">סביבה בטוחה, מכילה ודיסקרטית.</p>
       </div>
 
       <div class="text-right">
@@ -56,8 +56,8 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
             <i class="fas fa-laptop text-white text-xl"></i>
           </div>
         </div>
-        <h3 class="text-lg font-bold text-gray-800 mb-2">מענה מותאם</h3>
-        <p class="text-gray-500 text-sm leading-relaxed">מפגשים בקליניקה בפתח תקווה, בשיחת טלפון או בזום, סדנאות זוגיות וקבוצתיות.</p>
+        <h3 class="text-xl font-bold text-gray-800 mb-2">מענה מותאם</h3>
+        <p class="text-gray-500 text-base leading-relaxed">מפגשים בקליניקה בפתח תקווה, בשיחת טלפון או בזום, סדנאות זוגיות וקבוצתיות.</p>
       </div>
 
     </div>

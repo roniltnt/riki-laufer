@@ -11,9 +11,9 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
     </span>
     <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white mb-6 leading-tight">
       הגיע הזמן להפסיק<br />
-      <span class="text-plum-200">להרגיש שחיקה.</span>
+      <span style="color:#b5e6e9;">להרגיש שחיקה</span>
     </h2>
-    <p class="text-plum-100 text-lg leading-relaxed mb-10 max-w-2xl mx-auto">
+    <p class="text-lg leading-relaxed mb-10 max-w-2xl mx-auto" style="color:#d9f2f4;">
       העומס והבלבול לא חייבים לנהל אותך. אני מזמינה אותך לשיחת היכרות קצרה וממוקדת –
       ללא עלות – כדי לבחון יחד איך תהליך האימון יכול להזניק את החיים שלך קדימה.
     </p>
