@@ -1,0 +1,81 @@
+/* ── Base ── */
+* { font-family: 'Assistant', sans-serif; }
+html { scroll-behavior: smooth; }
+
+/* ── Custom backgrounds ── */
+.bg-beige      { background-color: #EAF5F7; }
+.bg-beige-dark { background-color: #D4EDF1; }
+
+.hero-gradient {
+  background: linear-gradient(135deg, #EAF5F7 0%, #d9f2f4 55%, #EAF5F7 100%);
+}
+
+.cta-gradient {
+  background: linear-gradient(135deg, #1e6b6f 0%, #164a4b 100%);
+}
+
+/* ── Photo placeholder ── */
+.photo-ring {
+  background: linear-gradient(145deg, #b5e6e9 0%, #4abcbf 100%);
+}
+
+/* ── Guaranteed color classes (Tailwind CDN may miss custom colors in external scripts) ── */
+.btn-primary            { background-color: #1e6b6f; }
+.btn-primary:hover      { background-color: #195859; }
+.icon-gradient          { background: linear-gradient(135deg, #2fa3a7, #1e6b6f); }
+.card-cta-bg            { background-color: #1e6b6f; }
+.border-primary         { border-color: #1e6b6f; }
+.text-primary           { color: #1e6b6f; }
+.text-primary-light     { color: #4abcbf; }
+.bg-primary-light       { background-color: #d9f2f4; }
+
+/* ── Hover lift card ── */
+.lift {
+  transition: transform .28s ease, box-shadow .28s ease;
+}
+.lift:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 24px 48px rgba(30, 107, 111, .13);
+}
+
+/* ── Floating WhatsApp pulse ── */
+@keyframes pulse-green {
+  0%, 100% { box-shadow: 0 0 0 0    rgba(37, 211, 102, .55); }
+  60%       { box-shadow: 0 0 0 14px rgba(37, 211, 102, 0);   }
+}
+.wa-float { animation: pulse-green 2.4s infinite; }
+
+/* ── Wave divider ── */
+.wave-bottom { margin-bottom: -2px; display: block; line-height: 0; }
+
+/* ── Testimonial decorative quote ── */
+.quote-bg::before {
+  content: '\201C';
+  font-size: 9rem;
+  color: #b5e6e9;
+  position: absolute;
+  top: -1.5rem;
+  left: 1rem;
+  line-height: 1;
+  font-family: Georgia, serif;
+  pointer-events: none;
+}
+
+/* ── Gradient text ── */
+.text-gradient {
+  background: linear-gradient(135deg, #1e6b6f, #4abcbf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ── Process step connector ── */
+.step-line::after {
+  content: '';
+  position: absolute;
+  top: 2rem;
+  left: -2rem;
+  width: 2rem;
+  height: 2px;
+  background: linear-gradient(to left, #b5e6e9, #4abcbf);
+}
