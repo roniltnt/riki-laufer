@@ -57,7 +57,7 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
           <i class="fas fa-star text-yellow-400 text-sm"></i>
         </div>
         <p class="text-gray-700 text-base leading-loose mb-8 relative z-10">
-          "הזמן טס, נהנו מאוד. החכמנו מהמפגש. הייתה לך את הסבלנות, החכמה והרגישות
+          "הזמן טס, נהננו מאוד והחכמנו מהמפגש. הייתה לך את הסבלנות, החכמה והרגישות
           לגעת אך לא לדרוך על נקודות בעייתיות. תודה רבה!"
         </p>
         <div class="flex items-center justify-end gap-4 relative z-10">
