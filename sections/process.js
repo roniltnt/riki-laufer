@@ -12,7 +12,7 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
 
-      <div class="text-right">
+      <div class="text-center">
         <div class="mb-5">
           <span class="block text-4xl font-black mb-3" style="color:#b5e6e9;">01</span>
           <div class="inline-flex w-14 h-14 rounded-2xl items-center justify-center shadow-lg"
@@ -24,7 +24,7 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
         <p class="text-gray-500 text-base leading-relaxed">אבחון מדויק של המצב הנוכחי ובניית מסלול ליעד.</p>
       </div>
 
-      <div class="text-right">
+      <div class="text-center">
         <div class="mb-5">
           <span class="block text-4xl font-black mb-3" style="color:#b5e6e9;">02</span>
           <div class="inline-flex w-14 h-14 rounded-2xl items-center justify-center shadow-lg"
@@ -36,7 +36,7 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
         <p class="text-gray-500 text-base leading-relaxed">משימות ממוקדות ליישום מהיר ביומיום.</p>
       </div>
 
-      <div class="text-right">
+      <div class="text-center">
         <div class="mb-5">
           <span class="block text-4xl font-black mb-3" style="color:#b5e6e9;">03</span>
           <div class="inline-flex w-14 h-14 rounded-2xl items-center justify-center shadow-lg"
@@ -48,7 +48,7 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
         <p class="text-gray-500 text-base leading-relaxed">סביבה בטוחה, מכילה ודיסקרטית.</p>
       </div>
 
-      <div class="text-right">
+      <div class="text-center">
         <div class="mb-5">
           <span class="block text-4xl font-black mb-3" style="color:#b5e6e9;">04</span>
           <div class="inline-flex w-14 h-14 rounded-2xl items-center justify-center shadow-lg"
