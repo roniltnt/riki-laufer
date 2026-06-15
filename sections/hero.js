@@ -12,10 +12,13 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
           ✨&nbsp; אימון אישי וזוגי מקצועי
         </span>
         <h1 class="text-4xl sm:text-5xl xl:text-6xl font-extrabold text-gray-800 leading-[1.15] mb-6">
-          לפרוץ מחסומים
+          לפרוץ מחסומים,<br />
+          <span class="text-gradient">למצוא חוזקות</span><br />
+          ולקבל כלים<br />להתמודדות עם חסמים
         </h1>
         <p class="text-lg text-gray-600 leading-relaxed mb-10 max-w-xl">
-          למצוא חוזקות ולקבל כלים להתמודדות עם חסמים.
+          אימון ממוקד בשיחת זום, טלפון או בקליניקה בפתח תקווה.
+          אימון ההופך אתגרים לצמיחה אישית בעזרת כלים וכוחות מעולמה של המתאמנת.
         </p>
         <div class="flex flex-col sm:flex-row gap-3">
           <a href="https://wa.me/972586566957" target="_blank" rel="noopener noreferrer"
