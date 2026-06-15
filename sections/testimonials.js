@@ -3,11 +3,10 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
   <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
 
     <div class="text-center mb-16">
-      <span class="inline-block bg-plum-100 text-plum-700 text-sm font-semibold px-4 py-1.5 rounded-full mb-4">מה אומרות המתאמנות</span>
+      <span class="inline-block bg-primary-light text-primary text-sm font-semibold px-4 py-1.5 rounded-full mb-4">מה אומרות המתאמנות</span>
       <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-800 mb-3">
-        המלצות <span class="text-gradient">אמיתיות</span>
+        המלצות אמיתיות - מילים של נשים וזוגות שעברו תהליך ושינו את חייהם:
       </h2>
-      <p class="text-gray-500 max-w-md mx-auto text-base">מילים של נשים שעברו תהליך ושינו את חייהן</p>
     </div>
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -47,6 +46,42 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
           <div class="text-right"><p class="font-bold text-gray-800">ע.כ.</p><p class="text-xs text-gray-400">מתאמנת</p></div>
           <div class="w-11 h-11 bg-plum-200 rounded-full flex items-center justify-center flex-shrink-0">
             <i class="fas fa-user text-plum-600 text-base"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote-bg relative bg-white rounded-3xl p-8 sm:p-10 shadow-sm border border-plum-100 text-right overflow-hidden">
+        <div class="flex justify-end gap-1 mb-5">
+          <i class="fas fa-star text-yellow-400 text-sm"></i><i class="fas fa-star text-yellow-400 text-sm"></i>
+          <i class="fas fa-star text-yellow-400 text-sm"></i><i class="fas fa-star text-yellow-400 text-sm"></i>
+          <i class="fas fa-star text-yellow-400 text-sm"></i>
+        </div>
+        <p class="text-gray-700 text-base leading-loose mb-8 relative z-10">
+          "הזמן טס נהנו מאוד. החכמנו מהמפגש. הייתה לך את הסבלנות, החכמה והרגישות
+          לגעת אך לא לדרוך על נקודות בעייתיות. תודה רבה!"
+        </p>
+        <div class="flex items-center justify-end gap-4 relative z-10">
+          <div class="text-right"><p class="font-bold text-gray-800">זוג</p><p class="text-xs text-gray-400">מתאמנים</p></div>
+          <div class="w-11 h-11 bg-plum-200 rounded-full flex items-center justify-center flex-shrink-0">
+            <i class="fas fa-user-group text-plum-600 text-base"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote-bg relative bg-white rounded-3xl p-8 sm:p-10 shadow-sm border border-plum-100 text-right overflow-hidden">
+        <div class="flex justify-end gap-1 mb-5">
+          <i class="fas fa-star text-yellow-400 text-sm"></i><i class="fas fa-star text-yellow-400 text-sm"></i>
+          <i class="fas fa-star text-yellow-400 text-sm"></i><i class="fas fa-star text-yellow-400 text-sm"></i>
+          <i class="fas fa-star text-yellow-400 text-sm"></i>
+        </div>
+        <p class="text-gray-700 text-base leading-loose mb-8 relative z-10">
+          "הרגשנו את המאמץ להבין לליבו של כל אחד מאיתנו, וכל זאת להישאר ניטרלית.
+          תודה על האכפתיות והמסירות להעלות את הזוגיות שלנו על דרך המלך. תודה רבה!!!"
+        </p>
+        <div class="flex items-center justify-end gap-4 relative z-10">
+          <div class="text-right"><p class="font-bold text-gray-800">זוג</p><p class="text-xs text-gray-400">מתאמנים</p></div>
+          <div class="w-11 h-11 bg-plum-200 rounded-full flex items-center justify-center flex-shrink-0">
+            <i class="fas fa-user-group text-plum-600 text-base"></i>
           </div>
         </div>
       </div>

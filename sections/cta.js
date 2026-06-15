@@ -18,11 +18,11 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
       ללא עלות – כדי לבחון יחד איך תהליך האימון יכול להזניק את החיים שלך קדימה.
     </p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center">
-      <a href="https://wa.me/972528566957" target="_blank" rel="noopener noreferrer"
+      <a href="https://wa.me/972586566957" target="_blank" rel="noopener noreferrer"
          class="flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#1aab53] text-white px-8 py-4 rounded-full text-base font-bold shadow-lg hover:shadow-xl transition-all hover:scale-105">
         <i class="fab fa-whatsapp text-xl"></i> פנייה בוואטסאפ
       </a>
-      <a href="tel:+972528566957"
+      <a href="tel:+972586566957"
          class="flex items-center justify-center gap-3 bg-white text-plum-700 hover:bg-plum-50 px-8 py-4 rounded-full text-base font-bold shadow-lg hover:shadow-xl transition-all hover:scale-105">
         <i class="fas fa-phone"></i> חייגי עכשיו
       </a>

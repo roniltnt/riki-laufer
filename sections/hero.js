@@ -12,23 +12,20 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
           ✨&nbsp; אימון אישי וזוגי מקצועי
         </span>
         <h1 class="text-4xl sm:text-5xl xl:text-6xl font-extrabold text-gray-800 leading-[1.15] mb-6">
-          לפרוץ מחסומים,<br />
-          <span class="text-gradient">למצוא איזון</span><br />
-          ולהוביל את הבית<br />להצלחה
+          לפרוץ מחסומים
         </h1>
         <p class="text-lg text-gray-600 leading-relaxed mb-10 max-w-xl">
-          אימון ממוקד בשיחת זום, טלפון או בקליניקה בפתח תקווה.
-          אימון ההופך אתגרים לצמיחה אישית בעזרת כלים וכוחות מעולמה של המתאמנת.
+          למצוא חוזקות ולקבל כלים להתמודדות עם חסמים.
         </p>
         <div class="flex flex-col sm:flex-row gap-3">
-          <a href="https://wa.me/972528566957" target="_blank" rel="noopener noreferrer"
+          <a href="https://wa.me/972586566957" target="_blank" rel="noopener noreferrer"
              class="flex items-center justify-center gap-2 text-white px-5 py-3.5 rounded-full text-sm font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-0.5"
              style="background-color:#25D366;">
             <i class="fab fa-whatsapp text-lg"></i> פנייה בוואטסאפ
           </a>
-          <a href="tel:+972528566957"
+          <a href="tel:+972586566957"
              class="btn-primary flex items-center justify-center gap-2 text-white px-5 py-3.5 rounded-full text-sm font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-0.5">
-            <i class="fas fa-phone"></i> 052-856-6957
+            <i class="fas fa-phone"></i> 058-656-6957
           </a>
           <a href="mailto:laufer.riki@gmail.com"
              class="flex items-center justify-center gap-2 px-5 py-3.5 rounded-full text-sm font-bold border-2 transition-all hover:-translate-y-0.5"

@@ -14,14 +14,13 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
 
       <div class="lift bg-white rounded-3xl p-8 shadow-sm border border-plum-100 text-right">
         <div class="w-14 h-14 bg-plum-100 rounded-2xl flex items-center justify-center mb-6"><i class="fas fa-heart text-plum-600 text-2xl"></i></div>
-        <h3 class="text-xl font-bold text-gray-800 mb-1">אימון אישי</h3>
-        <p class="text-sm text-plum-500 font-semibold mb-3">(נשים ונערות)</p>
+        <h3 class="text-xl font-bold text-gray-800 mb-3">אימון אישי: גילוי חוזקות וקבלת כלים להכרת הכוחות שבך.</h3>
         <p class="text-gray-500 text-base leading-relaxed">פיתוח חוסן, קבלת החלטות וניהול עומסים.</p>
       </div>
 
       <div class="lift bg-white rounded-3xl p-8 shadow-sm border border-plum-100 text-right">
         <div class="w-14 h-14 bg-plum-100 rounded-2xl flex items-center justify-center mb-6"><i class="fas fa-handshake text-plum-600 text-2xl"></i></div>
-        <h3 class="text-xl font-bold text-gray-800 mb-3">אימון זוגי</h3>
+        <h3 class="text-xl font-bold text-gray-800 mb-3">ייעוץ זוגי</h3>
         <p class="text-gray-500 text-base leading-relaxed">שיפור תקשורת, פתרון קונפליקטים וחידוש האינטימיות.</p>
       </div>
 
@@ -34,7 +33,7 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
       <div class="lift bg-white rounded-3xl p-8 shadow-sm border border-plum-100 text-right">
         <div class="w-14 h-14 bg-plum-100 rounded-2xl flex items-center justify-center mb-6"><i class="fas fa-ring text-plum-600 text-2xl"></i></div>
         <h3 class="text-xl font-bold text-gray-800 mb-3">הדרכת כלות</h3>
-        <p class="text-gray-500 text-base leading-relaxed">הכנה אימונית ורוחנית ליצירת יסודות חזקים לבית החדש.</p>
+        <p class="text-gray-500 text-base leading-relaxed">הכנה אמונית ורוחנית ליצירת יסודות חזקים לבית החדש.</p>
       </div>
 
       <div class="lift bg-white rounded-3xl p-8 shadow-sm border border-plum-100 text-right sm:col-span-2 lg:col-span-1">

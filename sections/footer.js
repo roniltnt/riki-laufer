@@ -19,8 +19,8 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
         <h4 class="text-white font-bold mb-5 text-base">יצירת קשר</h4>
         <ul class="space-y-3 text-sm">
           <li>
-            <a href="tel:+972528566957" class="flex items-center justify-end gap-3 hover:text-plum-400 transition-colors">
-              <span dir="ltr">052-856-6957</span><i class="fas fa-phone text-plum-500 w-4"></i>
+            <a href="tel:+972586566957" class="flex items-center justify-end gap-3 hover:text-plum-400 transition-colors">
+              <span dir="ltr">058-656-6957</span><i class="fas fa-phone text-plum-500 w-4"></i>
             </a>
           </li>
           <li>
@@ -29,7 +29,7 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
             </a>
           </li>
           <li>
-            <a href="https://wa.me/972528566957" target="_blank" rel="noopener noreferrer" class="flex items-center justify-end gap-3 hover:text-plum-400 transition-colors">
+            <a href="https://wa.me/972586566957" target="_blank" rel="noopener noreferrer" class="flex items-center justify-end gap-3 hover:text-plum-400 transition-colors">
               <span>WhatsApp</span><i class="fab fa-whatsapp text-plum-500 w-4"></i>
             </a>
           </li>
@@ -55,7 +55,7 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
   </div>
 </footer>
 
-<a href="https://wa.me/972528566957" target="_blank" rel="noopener noreferrer"
+<a href="https://wa.me/972586566957" target="_blank" rel="noopener noreferrer"
    aria-label="פנייה בוואטסאפ"
    class="wa-float fixed bottom-6 left-6 z-50 bg-[#25D366] hover:bg-[#1aab53] text-white rounded-full flex items-center justify-center shadow-2xl transition-transform hover:scale-110"
    style="width:3.5rem;height:3.5rem;">
