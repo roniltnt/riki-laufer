@@ -51,7 +51,7 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
                style="border-color:#82d4d8;animation-duration:22s;"></div>
           <img src="photos/profile.png" alt="ריקי"
                class="w-72 h-72 sm:w-80 sm:h-80 rounded-full object-cover shadow-2xl relative z-10"
-               style="width:clamp(18rem,40vw,26rem);height:clamp(18rem,40vw,26rem);object-position:center 35%;" />
+               style="width:clamp(18rem,40vw,26rem);height:clamp(18rem,40vw,26rem);object-position:center 75%;" />
         </div>
       </div>
 
