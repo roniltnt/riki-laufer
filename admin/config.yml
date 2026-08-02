@@ -57,6 +57,16 @@ collections:
               - {label: "כותרת", name: "title", widget: "string"}
               - {label: "תיאור", name: "description", widget: "text"}
 
+          - label: "תמונות מהסדנאות"
+            name: "workshop_photos"
+            widget: "list"
+            label_singular: "תמונה"
+            summary: "{{caption}}"
+            allow_add: true
+            fields:
+              - {label: "תמונה", name: "image", widget: "image", media_folder: "/photos/gallery", public_folder: "/photos/gallery"}
+              - {label: "כיתוב (אופציונלי)", name: "caption", widget: "string", required: false}
+
           - label: "המלצות"
             name: "testimonials"
             widget: "list"

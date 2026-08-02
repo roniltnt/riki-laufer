@@ -69,6 +69,24 @@ html { scroll-behavior: smooth; }
   background-clip: text;
 }
 
+/* ── Workshop gallery carousel ── */
+.gallery-dot {
+  background-color: #b5e6e9;
+  width: .625rem;
+  height: .625rem;
+}
+.gallery-dot.active {
+  background-color: #1e6b6f;
+  width: 1.5rem;
+}
+
+.gallery-arrow {
+  background-color: #fff;
+  color: #27858a;
+  border: 1px solid #d9f2f4;
+}
+.gallery-arrow:hover { background-color: #f0fafb; }
+
 /* ── Process step connector ── */
 .step-line::after {
   content: '';
