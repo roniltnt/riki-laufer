@@ -1,4 +1,6 @@
-document.getElementById('app').insertAdjacentHTML('beforeend', `
+window.Sections = window.Sections || {};
+
+window.Sections.hero = (data) => `
 <section class="hero-gradient relative overflow-hidden">
   <div class="absolute -top-20 -left-20 w-72 h-72 bg-plum-200 rounded-full opacity-40 blur-3xl pointer-events-none"></div>
   <div class="absolute bottom-0 right-0 w-96 h-96 bg-plum-100 rounded-full opacity-30 blur-3xl pointer-events-none"></div>
@@ -9,28 +11,27 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
       <!-- Text — right column in RTL -->
       <div class="order-2 lg:order-1 text-right">
         <span class="inline-block text-sm font-semibold px-4 py-1.5 rounded-full mb-6 shadow-sm bg-primary-light" style="color:#1e6b6f;">
-          ✨&nbsp; אימון אישי וזוגי מקצועי
+          ${data.hero.badge}
         </span>
         <h1 class="text-4xl sm:text-5xl xl:text-6xl font-extrabold text-gray-800 leading-[1.15] mb-6">
-          לפרוץ מחסומים,<br />
-          <span class="text-gradient">למצוא חוזקות</span><br />
-          ולקבל כלים<br />להתמודדות עם חסמים
+          ${data.hero.title_line1}<br />
+          <span class="text-gradient">${data.hero.title_highlight}</span><br />
+          ${data.hero.title_line3}<br />${data.hero.title_line4}
         </h1>
         <p class="text-lg text-gray-600 leading-relaxed mb-10 max-w-xl">
-          אימון ממוקד בשיחת זום, טלפון או בקליניקה בפתח תקווה.
-          אימון ההופך אתגרים לצמיחה אישית בעזרת כלים וכוחות מעולמה של המתאמנת.
+          ${data.hero.subtitle}
         </p>
         <div class="flex flex-col sm:flex-row gap-3">
-          <a href="https://wa.me/972586566957" target="_blank" rel="noopener noreferrer"
+          <a href="https://wa.me/${data.contact.whatsapp_number}" target="_blank" rel="noopener noreferrer"
              class="flex items-center justify-center gap-2 text-white px-5 py-3.5 rounded-full text-sm font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-0.5"
              style="background-color:#25D366;">
             <i class="fab fa-whatsapp text-lg"></i> פנייה בוואטסאפ
           </a>
-          <a href="tel:+972586566957"
+          <a href="tel:${data.contact.phone_tel}"
              class="btn-primary flex items-center justify-center gap-2 text-white px-5 py-3.5 rounded-full text-sm font-bold shadow-lg hover:shadow-xl transition-all hover:-translate-y-0.5">
-            <i class="fas fa-phone"></i> 058-656-6957
+            <i class="fas fa-phone"></i> ${data.contact.phone_display}
           </a>
-          <a href="mailto:laufer.riki@gmail.com"
+          <a href="mailto:${data.contact.email}"
              class="flex items-center justify-center gap-2 px-5 py-3.5 rounded-full text-sm font-bold border-2 transition-all hover:-translate-y-0.5"
              style="border-color:#1e6b6f;color:#1e6b6f;">
             <i class="fas fa-envelope"></i> שלחי מייל
@@ -49,7 +50,7 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
           <!-- Spinning dashed ring -->
           <div class="absolute -inset-5 rounded-full border-2 border-dashed opacity-50 animate-spin"
                style="border-color:#82d4d8;animation-duration:22s;"></div>
-          <img src="photos/profile.png" alt="ריקי"
+          <img src="${data.hero.photo}" alt="ריקי"
                class="w-72 h-72 sm:w-80 sm:h-80 rounded-full object-cover shadow-2xl relative z-10"
                style="width:clamp(18rem,40vw,26rem);height:clamp(18rem,40vw,26rem);object-position:center 75%;" />
         </div>
@@ -64,4 +65,4 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
     </svg>
   </div>
 </section>
-`);
+`;

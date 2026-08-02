@@ -17,12 +17,16 @@
   <script src="https://cdn.tailwindcss.com"></script>
 
   <link rel="stylesheet" href="css/styles.css" />
+
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body class="bg-beige text-gray-800 antialiased">
 
   <div id="app"></div>
 
-  <!-- Sections inject themselves synchronously — works on file:// with no server -->
+  <!-- Sections define render functions on window.Sections; js/main.js fetches
+       content/site.json and renders them in order. Requires being served over
+       http(s) — open via a local server or the live Netlify site, not file://. -->
   <script src="sections/header.js"></script>
   <script src="sections/hero.js"></script>
   <script src="sections/about.js"></script>
@@ -33,5 +37,17 @@
   <script src="sections/footer.js"></script>
 
   <script src="js/main.js"></script>
+
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 </body>
 </html>

@@ -1,0 +1,70 @@
+backend:
+  name: git-gateway
+  branch: main
+
+locale: "he"
+
+media_folder: "photos"
+public_folder: "photos"
+
+collections:
+  - name: "site"
+    label: "תוכן האתר"
+    files:
+      - name: "settings"
+        label: "עריכת האתר"
+        file: "content/site.json"
+        fields:
+
+          - label: "לוגו"
+            name: "logo"
+            widget: "image"
+
+          - label: "פרטי יצירת קשר"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "טלפון להצגה (למשל 058-656-6957)", name: "phone_display", widget: "string"}
+              - {label: "טלפון להתקשרות (עם קידומת בינלאומית, למשל ‎+972586566957)", name: "phone_tel", widget: "string"}
+              - {label: "מספר וואטסאפ (ללא ‎+, למשל 972586566957)", name: "whatsapp_number", widget: "string"}
+              - {label: "אימייל", name: "email", widget: "string"}
+
+          - label: "אזור פתיחה (Hero)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "תגית קטנה מעל הכותרת", name: "badge", widget: "string"}
+              - {label: "כותרת ראשית - שורה 1", name: "title_line1", widget: "string"}
+              - {label: "כותרת ראשית - שורה מודגשת (בצבע)", name: "title_highlight", widget: "string"}
+              - {label: "כותרת ראשית - שורה 3", name: "title_line3", widget: "string"}
+              - {label: "כותרת ראשית - שורה 4", name: "title_line4", widget: "string"}
+              - {label: "טקסט משנה", name: "subtitle", widget: "text"}
+              - {label: "תמונת פרופיל", name: "photo", widget: "image"}
+
+          - label: "קצת עלי"
+            name: "about"
+            widget: "object"
+            fields:
+              - {label: "טקסט", name: "text", widget: "text"}
+
+          - label: "תחומי התמחות"
+            name: "services"
+            widget: "list"
+            label_singular: "תחום התמחות"
+            summary: "{{title}}"
+            fields:
+              - {label: "אייקון (שם קלאס FontAwesome, למשל fa-heart)", name: "icon", widget: "string"}
+              - {label: "כותרת", name: "title", widget: "string"}
+              - {label: "תיאור", name: "description", widget: "text"}
+
+          - label: "המלצות"
+            name: "testimonials"
+            widget: "list"
+            label_singular: "המלצה"
+            summary: "{{name}} — {{role}}"
+            fields:
+              - {label: "דירוג (1 עד 5 כוכבים)", name: "rating", widget: "number", value_type: "int", min: 1, max: 5, default: 5}
+              - {label: "תוכן ההמלצה", name: "quote", widget: "text"}
+              - {label: "שם / כינוי", name: "name", widget: "string"}
+              - {label: "תפקיד (למשל מתאמנת / מתאמנים)", name: "role", widget: "string"}
+              - {label: "המלצה של זוג?", name: "is_couple", widget: "boolean", default: false}

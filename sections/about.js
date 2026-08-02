@@ -1,4 +1,6 @@
-document.getElementById('app').insertAdjacentHTML('beforeend', `
+window.Sections = window.Sections || {};
+
+window.Sections.about = (data) => `
 <section id="about" class="bg-white py-20 lg:py-28">
   <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-right">
 
@@ -7,7 +9,7 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
     </h2>
 
     <div class="space-y-5 text-gray-600 text-lg leading-relaxed">
-      <p>אימון אישי אפקטיבי לא נשאר רק בתיאוריה – הוא עובד ביומיום. כאמא ל-10 ילדים, אני מבינה ומכירה מקרוב את האתגרים הכרוכים בהתפתחות אישית, זוגית ומשפחתית. בתהליך איתי, אנחנו לא רק "מדברים על הבעיות", אלא מפרקים מחסומים, מגדירים מטרות ומפתחים אסטרטגיות פעולה שיוחזרו אליך את השליטה, הביטחון והשמחה.</p>
+      <p>${data.about.text}</p>
     </div>
 
     <div class="mt-10 grid grid-cols-2 gap-4">
@@ -23,4 +25,4 @@ document.getElementById('app').insertAdjacentHTML('beforeend', `
 
   </div>
 </section>
-`);
+`;
