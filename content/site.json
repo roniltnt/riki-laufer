@@ -76,8 +76,17 @@
     }
   ],
   "workshop_photos": [
-    { "image": "photos/gallery/workshop-group-circle-1.png", "caption": "מפגש קבוצתי במעגל שיח" },
-    { "image": "photos/gallery/workshop-group-circle-2.png", "caption": "הרצאה וסדנה קבוצתית" },
-    { "image": "photos/gallery/workshop-party-setup.jpeg", "caption": "מהכנות לסדנה חווייתית" }
+    {
+      "image": "photos/gallery/workshop-group-circle-1.png",
+      "caption": "מפגש קבוצתי במעגל שיח"
+    },
+    {
+      "image": "photos/gallery/workshop-group-circle-2.png",
+      "caption": "הרצאה וסדנה קבוצתית"
+    },
+    {
+      "image": "photos/gallery/workshop-party-setup.jpeg",
+      "caption": "מפגש באווירה פורימית 🥳"
+    }
   ]
 }
